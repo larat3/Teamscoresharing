@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/maxresdefault">
+
+    <Button
+        android:id="@+id/buttonUSA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team USA"
+        />
+
+    <TextView
+        android:id="@+id/score_TeamUSAView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:hint="0"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/buttonDR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="29"
+        android:text="Team DR"
+        />
+
+    <TextView
+        android:id="@+id/score_TeamDRView"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="28"
+        android:hint="0"
+        android:textColor="#FFFFFF"
+        />
+</GridLayout>
